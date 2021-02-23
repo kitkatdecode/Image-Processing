@@ -3,7 +3,21 @@ This python based tool is used to stich 2 or 3 images by manually selecting matc
 
 Result will depend on number of points matched and quality of matching. At least 4 matches required to compute homography.
 
-Selection can be cleared using <Undo Selection>.
+Selection can be cleared using **Undo Selection**.
+
+Libraries used-
+
+- opencv
+- tkinter
+- Pillow
+
+run cmd - 
+
+```
+$ python3 stich2images.py
+
+$ python3 sticth3images.py
+```
 
 Results-
 
