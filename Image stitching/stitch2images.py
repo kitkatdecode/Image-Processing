@@ -87,7 +87,7 @@ def selectGlobalCanvas(event):
 def loadImage1(image_path):
     global canvasG, img_w, img_h, imageA, imageB, imageALoaded, imageBLoaded
     
-    print(image_path.get())
+    #print(image_path.get())
     # Load an image using OpenCV
     cv_img = cv2.cvtColor(cv2.imread(image_path.get()), cv2.COLOR_BGR2RGB)
     # cv_img = cv2.cvtColor(cv2.imread("input_1_1.jpg"), cv2.COLOR_BGR2RGB)
@@ -113,7 +113,7 @@ def loadImage1(image_path):
 def loadImage2(image_path):
     global canvasG, img_w, img_h, imageA, imageB, imageALoaded, imageBLoaded
     
-    print(image_path.get())
+    #print(image_path.get())
     # Load an image using OpenCV
     cv_img = cv2.cvtColor(cv2.imread(image_path.get()), cv2.COLOR_BGR2RGB)
     # cv_img = cv2.cvtColor(cv2.imread("input_1_2.jpg"), cv2.COLOR_BGR2RGB)
@@ -175,8 +175,6 @@ def matchKeyPoints():
     
     ptsA = np.float32(matchesA)
     ptsB = np.float32(matchesB)
-    print(ptsA)
-    print(ptsB)
     
     (H, status) = cv2.findHomography(ptsA, ptsB, cv2.RANSAC,
 				4.0)
