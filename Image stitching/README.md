@@ -9,3 +9,18 @@ Results-
 
 stich2images.py
 
+2 images example-
+
+![alt text](https://github.com/kaySource/Image-Processing/blob/main/Image%20stitching/2images.png)
+
+Result
+
+![alt text](https://github.com/kaySource/Image-Processing/blob/main/Image%20stitching/2imagesResult.png)
+
+3 images example-
+
+![alt text](https://github.com/kaySource/Image-Processing/blob/main/Image%20stitching/3images.png)
+
+Result
+
+![alt text](https://github.com/kaySource/Image-Processing/blob/main/Image%20stitching/3imagesResult.png)
