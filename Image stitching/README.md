@@ -7,7 +7,7 @@ Selection can be cleared using **Undo Selection**.
 
 Libraries used-
 
-- opencv
+- opencv-python
 - tkinter
 - Pillow
 
